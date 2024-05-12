@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  padding: 10px;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 50px; /* Increase the height of the logo */
+  margin: 0 10px; /* Add margin to the logo */
+}
+
+.header__center {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adjust the margin */
+}
+
+.search-button {
+  margin-right: 10px;
+}
+
+.host-button {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .header__center {
+    margin: 10px 0;
+  }
+
+  .header__right {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,59 @@
+.search {
+  position: absolute;
+  top: 10vh;
+  left: 25%;
+  /* width: 100vw; */
+  height: 10vh;
+}
+
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2vh;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  /* position: absolute; */
+  left: 0;
+  top: 380px;
+  border-radius: 5px;
+}
+
+.search > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 10px;
+  top: 420px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search > input:focus {
+  outline-width: 0;
+}
+
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 480px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+.search-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Add border for visual separation */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  background-color: rgba(255, 255, 255, 0.5); /* Set background color with transparency */
+  backdrop-filter: blur(8px); /* Add blur effect */
+}
