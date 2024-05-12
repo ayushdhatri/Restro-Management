@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { SearchOutlined, UserOutlined } from '@ant-design/icons';
 import { Input, Button } from "antd";
 import Search from '../Body/Search.jsx';
-import {rms} from '../Assets/rms.png'
+import rms from '../Assets/rms.png'
 
 function Header() {
     const [showSearch, setShowSearch] = useState(false);
