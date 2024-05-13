@@ -1,12 +1,13 @@
-import React from "react";
+import {React} from "react";
+import {Link} from 'react-router-dom'
 import "./Card.css";
 
-function Card({ src, title, cusine, price, location, time }) {
+function Card({ src, title, cusine, price, location, opentime, closetime }) {
   return (
-    <div className="card">
+    <Link className="card" to='/info'>
       <img src={src} alt="" className="card-img" />
       <div className="card__info">
-        <div class="eMhMXQ">
+        <div class="card-section">
           <h4 class="hArupt">{title}</h4>
           <div class="sc-ljUfdc kDXOLl">
             <div class="sc-1q7bklc-5 kHxpSk">
@@ -42,17 +43,21 @@ function Card({ src, title, cusine, price, location, time }) {
             </div>
           </div>
         </div>
-        <div class=" eMhMXQ">
+        <div class="card-section">
           <p class="sc-1hez2tp-0 sc-iEPtyo bHxcOC">{cusine}</p>
           <p class="sc-1hez2tp-0 sc-iEPtyo dJHUYi">{price}</p>
         </div>
-        <div class="eMhMXQ">
-          <p class="bHxcOC">{location}</p>
-          <p class="dJHUYi">1.7 km</p>
+        <div class="card-section">
+          <p class="card-location">{location}</p>
+          <p class="card-km">1.7 km</p>
         </div>
-        <h3 className="card__time">{time}</h3>
+        <hr/>
+        <div className="card-section">
+        <h3 className="card__opentime">{opentime}</h3>
+        <h3 className="card__closetime">{closetime}</h3>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import Banner from './Banner.jsx'
+import Banner from './Home-Banner/Banner.jsx'
 import cardData from './Carddata.json';
-import Card from './Card.jsx' 
+import Card from './Card/Card.jsx' 
 
 function Home() {
     return (
@@ -18,7 +18,8 @@ function Home() {
                     cusine={card.cusine}
                     price={card.price}
                     location={card.location}
-                    time={card.time}
+                    opentime={card.opentime}
+                    closetime={card.closetime}
                 />
             ))}
         </div>

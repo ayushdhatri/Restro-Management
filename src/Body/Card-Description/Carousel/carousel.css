@@ -1,0 +1,6 @@
+.slick-slide img {
+  width: 100vw;
+  max-height: 25vw;
+  object-fit: cover;
+  overflow: hidden;
+}

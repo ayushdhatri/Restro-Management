@@ -3,6 +3,7 @@
   background-size: cover;
   height: 50vh;
   position: relative;
+  border-radius: 10px;
 }
 
 .banner__info {

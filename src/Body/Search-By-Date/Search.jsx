@@ -5,7 +5,6 @@ import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
 import { useNavigate } from "react-router-dom";
 import { Button } from "antd";
-import { UserOutlined} from '@ant-design/icons';
 
 // DATE PICKER COMPONENT
 function Search() {
@@ -30,11 +29,8 @@ function Search() {
                 onChange={handleSelect}
                 showDateDisplay={false} // Hide the end date display
             />
-            <h2>
-                 Number of guests <UserOutlined />
-            </h2>
-            <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
+            <input min={0} defaultValue={""} type="number" className='guest-input' placeholder='Number of guests...'/>
+            <Button onClick={() => history.push('/search')}>Search Restaurants</Button>
             </div>
         </div>
     )

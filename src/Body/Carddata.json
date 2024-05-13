@@ -5,7 +5,10 @@
       "cusine": "Thai, Cantonese",
       "location": "Church Street, Bangalore",
       "price": "£225 for two",
-      "time": "Closes in 1 hour 56 minutes"
+      "opentime": "Opens at 10:00AM", 
+      "closetime":"Closes at 12:00PM"
+
+      
   },
   {
     "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -13,7 +16,8 @@
     "cusine": "Thai, Cantonese",
     "location": "Church Street, Bangalore",
     "price": "£225 for two",
-    "time": "Closes in 1 hour 56 minutes"
+    "opentime": "Opens at 10:00AM", 
+    "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -21,7 +25,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -29,7 +34,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -37,7 +43,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -45,7 +52,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -53,7 +61,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -61,7 +70,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 },
 {
   "src": "https://b.zmtcdn.com/data/pictures/7/50877/9ac5e926b02d7a69bcdf5ce099e66c55_featured_v2.jpg?output-format=webp",
@@ -69,7 +79,8 @@
   "cusine": "Thai, Cantonese",
   "location": "Church Street, Bangalore",
   "price": "£225 for two",
-  "time": "Closes in 1 hour 56 minutes"
+  "opentime": "Opens at 10:00AM", 
+  "closetime":"Closes at 12:00PM"
 }
   
 ]

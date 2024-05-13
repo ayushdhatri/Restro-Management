@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchPage.css';
 import SearchResult from "./SearchResult.jsx";
-import cardData from './Carddata.json';
+import cardData from '../Carddata.json';
 import { Button } from "antd";
 
 function SearchPage() {

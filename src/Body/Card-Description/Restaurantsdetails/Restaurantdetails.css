@@ -1,0 +1,52 @@
+/* Restaurantdetails.css */
+.restaurant-details-container {
+  display: grid;
+  gap: 10px; /* Adjust spacing as needed */
+  
+}
+
+.title-and-rating {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+.rating{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px ;
+  font-weight: 800;
+}
+
+.title {
+  font-weight: bold; /* Example styling */
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.cusine{
+  font-weight: 100;
+  color: gray;
+  font-size: 1.1rem;
+}
+.address{
+  font-weight: 100;
+  color: rgb(179, 176, 176);
+}
+.status{
+  color: green;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+.status-timing{
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.extra-details-btn{
+  margin:20px 20px 20px 0px;
+}

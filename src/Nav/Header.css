@@ -14,6 +14,12 @@
   object-fit: contain;
   height: 50px; /* Increase the height of the logo */
   margin: 0 10px; /* Add margin to the logo */
+  border-radius: 50px;
+}
+
+.header__icon:hover{
+  transform: scale(1.07);
+  transition: all 0.1s;
 }
 
 .header__center {

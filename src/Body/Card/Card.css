@@ -5,6 +5,8 @@
   box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
   transition: transform 100ms ease-in;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .card:hover {
@@ -16,6 +18,14 @@
   min-width: 300px;
   min-height: 200px;
   width: 100%;
+}
+.card-location{
+  font-weight: 100;
+  color: rgb(129, 130, 131);
+}
+
+.card-km{
+  font-weight: 600;
 }
 
 .card__info {
@@ -37,7 +47,7 @@
   .card-img{
     border-radius: 10px;
   }
-  .eMhMXQ {
+  .card-section {
     font-weight: 300;
     font-family: Okra, Helvetica, sans-serif;
     cursor: pointer;
@@ -50,9 +60,15 @@
     line-height: 0.01rem;
 
   }
-  .card__time{
+  .card__opentime{
     font-family: Okra, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 0.9rem;
-    color: red;
+    color: #FF7E8B;
+  }
+  .card__closetime{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #257E3E
   }
