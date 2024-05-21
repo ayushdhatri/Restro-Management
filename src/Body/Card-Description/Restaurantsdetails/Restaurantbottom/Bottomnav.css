@@ -1,0 +1,43 @@
+/* Bottomnav.css */
+
+/* Style for the header container */
+.bottom-header {
+  /* background-color: #333; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+/* Style for the center section of the header */
+.bottom-header__center {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 1200px;
+  color: gray;
+}
+
+/* Style for the links */
+.bottom-header__center a {
+  color: gray;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Add hover effect for links */
+.bottom-header__center a:hover {
+  color: rgb(194, 34, 34);
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+/* Add active class for the active link */
+.bottom-header__center a.active {
+  color: #fff;
+  background-color: rgb(194, 34, 34);
+  border-radius: 4px;
+}

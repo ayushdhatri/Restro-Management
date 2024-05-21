@@ -3,12 +3,14 @@ import './Home.css';
 import Banner from './Home-Banner/Banner.jsx'
 import cardData from './Carddata.json';
 import Card from './Card/Card.jsx' 
+import Chooseus from './Home-Banner/Chooseus.jsx';
 
 function Home() {
     return (
         <div className='home'>
             <Banner />
-
+            <Chooseus/>
+            <h1>Bangalore Restaurants</h1>
             <div className='home__section'>
             {cardData.map((card, index) => (
                 <Card

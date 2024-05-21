@@ -1,0 +1,161 @@
+
+.booking-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Limit the width for larger screens */
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto; /* Center the container */
+}
+/* 
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.selected {
+  background-color: #28a745;
+}
+
+button.selected:hover {
+  background-color: #218838;
+}
+
+.form-section, .meal-selection, .offers-section, .summary-section {
+  margin-bottom: 20px;
+}
+
+.meal-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* Allow wrap on smaller screens */
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap; /* Adjust to wrap on smaller screens */
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+  gap: 10px;
+}
+
+.confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  color: #155724;
+  text-align: center;
+}
+
+.summary-section p {
+  margin: 5px 0; /* Adjust spacing for summary text */
+}
+
+/* Offers section styling */
+.offer {
+  background-color: #ffeb3b;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1 1 calc(50% - 10px); /* Allow offers to take up half the width of container with gap */
+}
+
+.offer:hover {
+  background-color: #ffc107;
+}
+
+.offer.selected {
+  background-color: #ff9800;
+  color: white;
+}
+
+/* Add new styles for the summary section */
+
+.summary-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-section h2 {
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.summary-item-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.summary-item-text {
+  font-size: 16px;
+}
+
+.summary-item-text span {
+  font-weight: bold;
+}
+
+/* Style for the icons (you can replace these with your own icons) */
+.summary-item-icon {
+  background-color: #007BFF;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
